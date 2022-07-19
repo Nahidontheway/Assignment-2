@@ -56,7 +56,7 @@ body{
 
 /* top banner section end */
 
-/* mathces information section start*/
+/* information section start*/
 
 .all-information{
     display: flex;
@@ -94,4 +94,42 @@ body{
 }
 
 
-/* mathces information section end*/
+/* information section end*/
+
+/* matches section started */
+
+.matches{
+    width: 800px;
+}
+.matches .match{
+    width: 270px;
+    height: 325px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-left: 24px;
+}
+.matches .match img{
+    width: 270px;
+    object-fit: cover;
+}
+.matches .match-info{
+    margin-left: 20px;
+}
+.match-info .heading{
+    border: 1px solid black;
+    width: 90px;
+    text-align: center;
+    color: #161616;
+    font-weight: 600;
+}
+.match-info .caption{
+    font-size: 14px;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.comment .fa-regular,.fa-solid{
+    font-size: 13px;
+}
+/* matches section end */
