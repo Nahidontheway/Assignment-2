@@ -1,0 +1,49 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,700&family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,700&family=Roboto:wght@300;400;500;700&family=Supermercado+One&display=swap');
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* top banner section */
+
+.top-banner{
+    width: 80%;
+    height: 490px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background: #161616;
+    border-radius: 30px;
+}
+.banner-text{
+    width: 45%;
+    color: #ffffff;
+    margin: 24px 0 100px 100px;
+}
+.banner-text h1{
+    font-size: 60px;
+    width: 300px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+.banner-text p{
+    width: 400px;
+    margin-bottom: 30px;
+}
+.banner-text button{
+    padding: 15px 35px;
+    background: #DD0000;
+    font-weight: 600;
+}
+.banner-text button{
+    color: white;
+}
+.banner-image img{
+    width: 400px;
+    position: absolute;
+    height: auto;
+    left: 801px;
+    top: 77px;
+}
