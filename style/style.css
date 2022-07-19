@@ -3,18 +3,21 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* top banner section start */
 
 .top-banner{
     width: 80%;
-    height: 470px;
+    height: 450px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     background: #161616;
     border-radius: 30px;
+    margin-top: 30px;
 }
 .banner-text{
     width: 45%;
@@ -51,7 +54,7 @@ body{
     position: absolute;
     height: auto;
     left: 801px;
-    top: 56.5px;
+    top: 60px;
 }
 
 /* top banner section end */
@@ -137,3 +140,37 @@ body{
     font-size: 13px;
 }
 /* matches section end */
+
+/* footer section started */
+
+footer{
+    background: #161616;
+    width: 100%;
+    height: 270px;
+    margin-top: 130px;
+}
+footer h2{
+    text-align: center;
+    color: white;
+    top: 70px;
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+}
+footer .link{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    padding: 10px;
+    border-top: 2px solid grey;;
+}
+footer a{
+    color: #B9B9B9;
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: 15px;
+}
+
+/* footer section end */
