@@ -11,7 +11,7 @@ body{
 
 .top-banner {
     width: 80%;
-    height: 450px;
+    height: 395px;
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -53,7 +53,7 @@ body{
     color: white;
 }
 .top-banner img{
-    width: 40%;
+    width: 116%;
 }
 
 /* top banner section end */
@@ -248,12 +248,58 @@ footer a{
         flex-direction: column;
     }
 } */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .top-banner{
+        height: 415px;
+    }
+    .banner-text{
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .banner-image img{
+        width: 100%;
+        position: relative;
+        left: 65px;
+        top: 60px;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .top-banner{
+        width: 90%;
+        height: 50vw;
+    }
+    .banner-text{
+        width: 45%;
+    }
+    .banner-text h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+    .banner-text p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .banner-text button{
+        padding: 9px 23px;
+
+    }
+    .banner-image img{
+        width: 95%;
+        position: relative;
+        top: 82px;
+        left: 1px;
+    }
+}
 @media only screen and (min-width: 321px) and (max-width: 425px) {
     .top-banner{
         width: 100%;
         flex-wrap: wrap;
         flex-direction: column;
-        height: 673px;
+        height: 680px;
         border-radius: 5px;
     }
     .banner-text {
@@ -274,11 +320,11 @@ footer a{
         margin-bottom: 20px;
     }
     .top-banner img{
-        width: 80%;
+        width: 62%;
         height: auto;
         position: relative;
-        left: 65px;
-        top: 47px;
+        left: 94px;
+        top: 55px;
     }
 }
 @media only screen and (min-width: 0px) and (max-width: 320px) {
@@ -315,7 +361,7 @@ footer a{
         width: 55%;
         height: auto;
         left: 80px;
-        top: 10px;
+        top: 8px;
     }
     /* .all-information{
         flex-direction: column;
