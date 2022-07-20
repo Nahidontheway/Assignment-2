@@ -1,4 +1,15 @@
-/* import google font */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World-cup 2022</title>
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/92fead3f05.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <style>
+        /* import google font */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,700&family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,700&family=Roboto:wght@300;400;500;700&family=Supermercado+One&display=swap');
 
 body{
@@ -107,7 +118,7 @@ button:hover{
 
 .matches{
     width: 100%;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     grid-gap: 24px;
@@ -116,9 +127,10 @@ button:hover{
     width: 230px;
     height: 310px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
 }
 .matches .match img{
-    width: 230px;
+    width: 80px;
     object-fit: cover;
 }
 .matches .match-info{
@@ -435,21 +447,67 @@ footer a{
     footer{
         width: 330px;
     }
-    /* .all-information{
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .all-information .matches{
-        grid-template-columns: repeat(1,1fr);
-    }
-
-    .details {
-        width: 252px;
-        height: auto;
-        margin: 0 auto;
-    }
-    .all-details{
-        width: 80%;
-        justify-content: space-evenly;
-    }    */
 } 
+
+    </style>
+
+</head>
+<body>
+    <!-- banner-section start -->
+    <header>
+        <div class="top-banner">
+            <div class="banner-text">
+                <h1>The Greatest show on the earth</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <button class="btn">Watch Live<i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="banner-image">
+                <img src="../world-cup-main/assets/Banner Image.png" alt="banner-image">
+            </div>
+        </div>
+    </header>
+
+     <!-- banner-section end -->
+
+    <!-- main section started -->
+
+    <main>
+        <section class="all-information">
+            <div class="details">
+                <div class="all-details">
+                    <button>Upcoming Match</button>
+                    <button>All Group</button>
+                    <button class="blog">Blog</button>
+                </div>
+            </div>
+            <div class="matches">
+                <div class="match">
+                    <div class="match-image">
+                        <img src="../world-cup-main/assets/Flag.png" alt=""><p>VS</p><img src="../world-cup-main/assets/germany Flag.png" alt="">
+                    </div>
+                    <div class="match-info">
+                        
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+    <!-- main section end -->
+    <!-- footer section start -->
+
+    <footer>
+        <div class="top">
+            <h2>Goal</h2>
+        </div>
+        <div class="link">
+            <a href="#">Contact us</a>
+            <a href="#">Term and services</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Privacy setting</a>
+            <a href="#">Goal live</a>
+        </div>
+    </footer>
+
+    <!-- footer section end -->
+</body>
+</html>
