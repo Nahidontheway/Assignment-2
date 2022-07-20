@@ -9,24 +9,26 @@ body{
 
 /* top banner section start */
 
-.top-banner{
+.top-banner {
     width: 80%;
     height: 450px;
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
     background: #161616;
     border-radius: 30px;
     margin-top: 30px;
+    align-content: center;
+    flex-direction: row;
 }
 .banner-text{
     width: 45%;
     color: #ffffff;
-    margin: 24px 0 100px 100px;
+    margin: 40px 0 100px 100px;
 }
 .banner-text h1{
     font-size: 40px;
-    width: 300px;
+    width: 393px;
     word-spacing: 2px;
     letter-spacing: 0.5px;
     margin-bottom: 20px;
@@ -50,12 +52,8 @@ body{
 .banner-text button{
     color: white;
 }
-.banner-image img{
-    width: 400px;
-    position: absolute;
-    height: auto;
-    left: 801px;
-    top: 60px;
+.top-banner img{
+    width: 40%;
 }
 
 /* top banner section end */
@@ -244,11 +242,50 @@ footer a{
     }
     
 } */
+/* @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .top-banner{
+        display: flex;
+        flex-direction: column;
+    }
+} */
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+    .top-banner{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 673px;
+        border-radius: 5px;
+    }
+    .banner-text {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .top-banner h1{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+    .top-banner p{
+        width: 73%;
+        margin: 0 auto;
+        margin-top: 8px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .top-banner img{
+        width: 80%;
+        height: auto;
+        position: relative;
+        left: 65px;
+        top: 47px;
+    }
+}
 @media only screen and (min-width: 0px) and (max-width: 320px) {
     .top-banner {
         flex-direction: column;
-        height: 327px;
-        width: 197px;
+        height: 365px;
+        width: 280px;
         border-radius: 5px;
     }
     .banner-text {
@@ -258,12 +295,12 @@ footer a{
         text-align: center;
     }
     .banner-text h1{
-        font-size: 14px;
+        font-size: 19px;
         width: 100%;
         margin-bottom: 10px;
     }
     .banner-text p {
-        font-size: 8px;
+        font-size: 10px;
         width: 100%;
         margin-bottom: 13px;
         font-weight: 400;
@@ -273,12 +310,12 @@ footer a{
         font-size: 12px;
         text-align: center;
     }
-    .banner-image img {
-        width: 147px;
-        position: absolute;
+    .top-banner img {
+        position: relative;
+        width: 55%;
         height: auto;
-        left: 100px;
-        top: 201px;
+        left: 80px;
+        top: 10px;
     }
     /* .all-information{
         flex-direction: column;
